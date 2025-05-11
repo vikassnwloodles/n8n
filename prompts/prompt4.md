@@ -1,0 +1,1 @@
+Summarize the following 50 emails in a concise way, highlighting key topics, priorities, and action items:\n\n{{ $json.emails }}

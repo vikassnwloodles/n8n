@@ -1,0 +1,13 @@
+[
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[\n{\n  \"summary\": \"Emails // Daily Planning // Review\",\n  \"classification\": \"Internal Team Block\",\n  \"reason\": \"This event involves emails and planning tasks that are typically internal activities.\"\n},\n{\n  \"summary\": \"Google Ads\",\n  \"classification\": \"Internal Team Block\",\n  \"reason\": \"The event title 'Google Ads' suggests internal work related to managing Google Ads.\"\n},\n{\n  \"summary\": \"Linked-In Content\",\n  \"classification\": \"Internal Team Block\",\n  \"reason\": \"The title 'Linked-In Content' implies work related to internally managing LinkedIn content.\"\n},\n{\n  \"summary\": \"Lunch Break\",\n  \"classification\": \"Free Time Block\",\n  \"reason\": \"A 'Lunch Break' is a break for personal time, classifying it as Free Time Block.\"\n},\n{\n  \"summary\": \"FB & Google Strategy Weekly Regroup\",\n  \"classification\": \"Internal Team Block\",\n  \"reason\": \"This event with a title 'FB & Google Strategy Weekly Regroup' suggests internal strategic discussion, thus classified as Internal Team Block.\"\n},\n{\n  \"summary\": \"Monday Kick Off\",\n  \"classification\": \"Internal Team Block\",\n  \"reason\": \"The 'Monday Kick Off' event sounds like an internal meeting, thus it's labeled as Internal Team Block.\"\n}\n]",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ]

@@ -1,0 +1,1 @@
+Summarize the following emails:\n\n{{ JSON.stringify($json.batch) }}

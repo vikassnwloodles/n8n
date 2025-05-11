@@ -1,0 +1,1 @@
+Here are 10 batch summaries of emails. Write a single executive-level summary:\n\n{{ $json.allSummaries }}

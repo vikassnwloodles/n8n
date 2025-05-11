@@ -1,0 +1,33 @@
+
+1. Now here is a space for optimization. We are using 3 separate nodes:
+    - to fetch due tasks for today
+    - to fetch overdue tasks
+    - to fetch all tasks then apply filter node for high priority tasks
+2. Optimization: Fetch all tasks using single node and then use filters for due today, overdue and high priority tasks.
+3. We need to fetch tasks that are due today. There is an option in clickup to set due data to "today".
+4. I am checking what due date does clickup api return for "today".
+5. Setting timezone to EST in clickup and then checking what due date does api return for "today".
+6. I figured out that if we set "today" as due date then the api returns unix timestamp which is 
+    04:00 AM on the same day.
+7. That means if I set due date "today" on 09/05/2025 regardless of the time of setting it,
+    the api will send due date as unix timestamp which will translate to 09/05/2025 04:00 AM.
+8. Now, I need to write filter for "due date today".
+9. If I set the due date in clickup as on 09/05/2025 then the filter will check if the due date
+    provided by api is greater than or equal to 09/05/2025 00:00 AM and less than 10/05/2025 00:00 AM.
+10. Implementing the above logic in the filter node.
+11. Filter node's value filed is not working with {{ $now.getTime() }} and giving undefined.
+12. Now using set node to get current unix timestamp to set as a value in filter node.
+13. Don't need to use set node as using {{ new Date... }} instead of {{ $now... }} worked.
+14. Now I got a new understanding that we need to fetch only those `due today` and `overdue` tasks 
+    that are not completed yet.
+15. We have a key named date_done in json response from clickup. We can use that to check if date_done
+    is set or not. If we don't set it in clickup then it is null by default in the json response.
+16. Clickup node is fetching only todo tasks and in-progress tasks, not the completed ones.
+17. So, we don't need to care about completed tasks to be included in `due today` or `overdue` tasks. 
+    No, filter expression required to avoid completed tasks.
+18. If a task is marked completed in clickup UI then it won't be fetched by clickup `get all tasks` node.
+    If you are filtering high_priority tasks and some of the tasks are marked completed via clickup UI then they
+    won't be fetched and won't be included in the response by the filter node added to fetch tasks labeled as high priority
+    via clickup UI.
+19. Working on: Connect Slack API and test basic message post.
+20. Set up slack app and get oauth token.

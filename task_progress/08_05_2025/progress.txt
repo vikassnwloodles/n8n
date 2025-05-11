@@ -1,0 +1,41 @@
+1. Also check how to retrieve attachments as well. (Click add option and explore attachment prefix and download attachments)
+2. Able to get download buttons under binary tab in n8n get gmail node to download attachments but
+   those are not included in json.
+3. Din't find any direct way to get attachments in json. Skipping this part for now...
+4. Exporting Gmail workflow from local n8n and importing to cloud instance.
+5. Successfully imported to the cloud instance and able to fetch sent emails from the
+    gmail account linked to the provided Gmail credentials by client.
+6. Now working on Get received emails in the last 72 hours.
+7. Trying to fetch received emails along with sent emails.
+8. Search on chatgpt that can we get both sent and received emails using a single node and found
+   that it is not possible because The Gmail node can search using only one query or label filter at a time.
+9. Now creating a new node to received emails in the last 72 hours.
+10. n8n gmail node is fetching 51 emails from inbox in the last 72 hours
+    whereas manually searching in mail.google.com giving 44 mails only.
+11. Checking which extra emails are included in json response provided by gmail node in n8n.
+12. Got it. Multiple emails received one after another from same sender are clubed together and a number
+    is mentioned showing the total number of emails clubed within a row in mail.google.com.
+13. So, if I counted those numbers as well, it make a total of 51 emails received in the last 72 hours
+    which matches with the n8n gmail node response.
+14. Now working on: Filter unread or unanswered threads.
+15. Got the following search term to filter out unread or unanswered threads: is:inbox is:unread -from:me
+16. Able to fetch unread emails successfully!
+17. Working on fetching today's events from google calendar.
+18. Able to fetch today's events from google calendar.
+19. Integration ClickUp in n8n workflow.
+20. Sign up to ClickUp using vikas.sanwal1@oodles.io
+21. Generating access token there in ClickUp.
+22. Used generated access token and fetched all tasks under Team: Oodles > Space: Team Space > Folder: Projects > List: Project 1.
+23. Able to access tasks with today as the due date.
+24. Now, working on getting tasks that are overdue.
+25. Done getting overdue tasks.
+26. Now need to fetch high priority tasks only.
+27. ClickUp node doesn't provide a direct option to filter out tasks based on priority.
+28. Need to fetch all tasks first using clickup node and then use a filter node.
+29. Checking if tasks fetched using clickup node are having priority key or not.
+30. There was no priority key and I need to use filter node to filter out results based on priority.
+31. Now here is a space for optimization. We are using 3 separate nodes:
+    - to fetch due tasks for today
+    - to fetch overdue tasks
+    - to fetch all tasks then apply filter node for high priority tasks
+32. Optimization: Fetch all tasks using single node and then use filters for due today, overdue and high priority tasks.

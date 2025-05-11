@@ -1,0 +1,1 @@
+Hi, Team, Here is an update of the tasks done today: Tasks Completed: Setting up pyenv to easily switch between python versions. Setup OpenVoice v2 successfully. Define table fields for ADT^A01 (Admit

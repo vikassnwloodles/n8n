@@ -1,0 +1,13 @@
+1. Ravi sir scheduled a call with client on slack. [18:13] 
+2. Ravi sir introduced Vikas Sanwal and Sarthak Dixit to Chris (Client).
+3. Ravi sir told client about Oodles Technologies experience on AI and n8n.
+4. Client asked Vikas Sanwal and Sarthak Dixit's oodles email ids for inviting them to collaborate on an n8n instance hosted at subdomain bluewatermarketing.app.n8n.cloud.
+5. Vikas Sanwal has successfully joined the n8n at bluewatermarketing.app.n8n.cloud.
+6. Client shared a requirement doc named "AI Executive Assistant Agent Workflow.pdf" on n8n-workflows slack channel. [18:36]
+7. He attached the above doc with the following message: "This will be the first workflow. This is going to be using Matt Liss’ credentials."
+8. Based on the above message the following message needs to be sent for clarity:
+"Just to confirm—when you mention “using Matt Liss’ credentials,” should we proceed with setting up all integrations (Gmail, Google Calendar, ClickUp, etc.) under his accounts for this workflow? Please let us know if any access or tokens will be shared for that."
+
+
+Following are the work done today:
+1. Setup n8n locally (installed using npm).

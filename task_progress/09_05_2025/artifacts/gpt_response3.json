@@ -1,0 +1,13 @@
+[
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Morning Brief Overview:\n\nTop 5 Action Items:\n1) Review and approve the ad creatives for the Andromeda-style Facebook campaign (Email 1). \n2) Get back to Elaine Delaney with potentially suitable Executive Assistant candidates (Email 2).\n3) Contact Jennifer regarding the overdue invoice payment (Email 3).\n4) Follow-up with Alexander Palas concerning the status of your taxes (Email 4).\n5) Reverse the arrow direction in the proposed email for Pikkl and get the final sign-off (Email 5).\n\nUrgent Follow-ups:\n1) Review the report of manual time submitted by Fahad T. on Upwork (Email 6).\n2) Review and respond to the LinkedIn message from Hugo Louzada (Email 8).\n3) Acknowledge the training signup submissions from Stella Pena and Ola Phillips (Email 7).\n \nMeeting List:\nNone for the last 72 hours.\n\nSuggestions: Delegate / Defer / Respond Now\n- Delegate the review of promotional emails from BNBPickleball.com and Brandster.com to marketing team.\n- Defer the review of Loom subscription invoice until the end of the day.\n- Respond now to Elaine Delaney with potential Executive Assistant candidates and to Alexander Palas regarding tax status.\n\nToday’s focus should be on wrapping up all the pending tasks, especially getting approvals on the Andromeda-style Facebook campaign, sorting the overdue invoice, and finalising tax matters. Remember to make time for reviewing time sheets and sign-ups, as well as replying to pending messages.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ]

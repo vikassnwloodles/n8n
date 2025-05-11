@@ -1,0 +1,13 @@
+[
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**Morning Brief**\n\n**Top 5 Action Items Today**\n1. Monitor the 'Kitchen Convenience' Campaign\n    - This campaign shows positive performance. Stay up-to-date on this one to maximize results.\n2. Progress the Andromeda-style Facebook Campaign\n    - With a current shift in strategy, it's crucial to ensure a successful transition and manage the campaign actively.\n3. Review new Ad Creatives\n    - As discussed with Haden and Jolie, the new ad creatives need to be reviewed as a priority to implement them effectively.\n4. Follow-up on Team Exec Assistant\n    - Respond to Elaine's email regarding the potential new Executive Assistant for reviewing the candidate's profile to streamline work operations.\n5. Payment Follow up\n    - An invoice reminder email was sent to 'jennifer@jenniferpowter.com'. Keep an eye out for the payment status as a priority.\n\n**Urgent Follow-ups**\n1. Launch Andromeda-style Facebook Campaign: This is due today. Update required ASAP on progress.\n2. Assistant Profile Review: Respond to Elaine from Hey Recruiting for further proceedings.\n3. Tax Information: Contact 'Alexander.palas@gmail.com' for an update on tax documentation.\n\n**Meeting List**\n1. Weekly Marketing Sprint with 'Haden@redroostercoffeeroaster.com' and 'Jolie@redroostercoffeeroaster.com' on May 19.\n\n**Suggestions**\n- Delegate: Payment follow-up to the Accounts team.\n- Defer: 'Kitchen Convenience' Campaign monitoring to the late afternoon - after peak hours.\n- Respond Now: Elaine's email on Executive Assistant.\n\n**Final Closing Summary**\n\nToday’s focus should be on actively managing and transitioning the 'Andromeda-style Facebook Campaign', reviewing new Ad Creatives, and hiring a potential Executive Assistant for streamlined operations.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ]

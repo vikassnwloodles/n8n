@@ -1,0 +1,81 @@
+1. Imap node integrated successfully in local n8n workflow for testing with the following account.
+    Gmail: vikas.sanwal1@oodles.io
+2. It fetched only 3 email whereas I have 6 emails presnet at my sent emails section in my gmail account.
+3. Parsing the json response containing 3 fetched emails to figure out which emails got fetched.
+4. After debugging the json response, I figured out that it has fetched all 3 of my unread emails from inbox.
+5. Need to check an option for fetching from sent instead of inbox.
+6. In Email Trigger (IMAP) parameters tab, Mailbox name is set to inbox by default.
+7. Changing it to sent and testing the node again.
+8. It gave me the error: "Unknown Mailbox: SENT"
+9. Need to check whether we can fetch sent emails or inbox only.
+10. I seach on internet for the mailbox name to fetch sent emails and found the following ones (but no one worked):
+    - [Gmail]/Sent Mail (didn't raise error, keep running indefinitely)
+    - Sent Mail (raised error: "Unknown Mailbox: Sent Mail")
+11. Now using a dedicated node provided by n8n for the same. (Select node: Gmail > Select action: Get many messages)
+12. Configuring credentials for the node to fetch emails.
+    - Log in to your Google Cloud account.
+    - Go to Google Cloud Console / APIs and services and choose the project you want to use from the select at the top left (or create a new one and select it).
+    - If you haven't used OAuth in this Google Cloud project before, configure the OAuth consent screen.
+    - In Credentials, select + CREATE CREDENTIALS > OAuth client ID.
+    - In the Application type dropdown, select Web application.
+    - Under Authorized redirect URIs, select + ADD URI. Paste in the OAuth redirect URL from n8n (http://localhost:5678/rest/oauth2-credential/callback).
+    - Select Create.
+    - In Enabled APIs and services, select + ENABLE APIS AND SERVICES.
+    - Select and enable the Gmail API.
+    - Back to Credentials, click on the credential in OAuth 2.0 Client IDs, and on the credential page, you will find the Client ID and Client Secret.
+13. Connection established successfully.
+14. Got 2 emails only by setting the limit to 2.
+15. Now debugging json response to check whether the fetched emails are from inbox or sent.
+16. Still getting emails from the inbox.
+17. Using the filter option and providing "SENT" as the label name.
+18. Running the workflow again.
+19. Checking the json response.
+20. Successfully got the sent emails but unable to get full email message, just getting a small snippet of the full message.
+21. Checking available options in "Gmail getAll: message" node.
+22. Disabled simplify toggle and not testing whether getting full message or not.
+23. Now we are successfully getting the full message from the following 3 options:
+    - text (full text - formatted - without images)
+    - html (full html - formatted - with images)
+    - textAsHtml (full text - partially formatted i.e., keeping newlines but not keeping indentation for list of items - without images)
+24. Following are all the unique keys present across emails (some keys might be excluded as we fetched only 3 emails):
+    - references
+    - cc
+    - to
+    - date
+    - headers
+    - sizeEstimate
+    - labelIds
+    - threadId
+    - replyTo
+    - id
+    - messageId
+    - subject
+    - textAsHtml
+    - from
+    - text
+    - html
+25. Following keys are common in all 3 emails:
+{'date',
+ 'from',
+ 'headers',
+ 'html',
+ 'id',
+ 'labelIds',
+ 'messageId',
+ 'sizeEstimate',
+ 'subject',
+ 'text',
+ 'textAsHtml',
+ 'threadId',
+ 'to'}
+26. "cc" is present only in 1 email among the 3 fetched emails. (in first email)
+27. 'references' and 'replyTo' are present together only in 1 email among the 3 fetched emails. (in second email)
+28. Currently we are getting n sent emails but we need to get emails that are sent in last 24 hours.
+29. Checking node if an option to fetch emails based on time is present there.
+30. Used search filter and passed "in:sent newer_than:1d" and it's working fine.
+31. prepared document adding the keys present in the json of fetched sent emails along with description.
+32. You can find the doc under docs/fetched_email_keys folder.
+33. Also checked that Email with subject: Document shared with you: ‘HL7 v2.9.1’ is having these keys: "references" and "replyTo" which are not present in other emails.
+
+
+ 

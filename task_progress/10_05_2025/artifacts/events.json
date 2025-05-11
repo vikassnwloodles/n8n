@@ -1,0 +1,359 @@
+[
+    {
+      "id": "vteo60e6h6ogouef31on62errc_20250512",
+      "summary": "Office",
+      "start": {
+        "date": "2025-05-12"
+      },
+      "end": {
+        "date": "2025-05-13"
+      },
+      "creator": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "created": "2022-09-16T12:05:46.000Z",
+      "updated": "2024-01-25T15:49:23.603Z",
+      "etag": "\"3412395527206000\"",
+      "eventType": "workingLocation",
+      "htmlLink": "https://www.google.com/calendar/event?eid=dnRlbzYwZTZoNm9nb3VlZjMxb242MmVycmNfMjAyNTA1MTIgbWF0dEBibHVld2F0ZXJtYXJrZXRpbmcuY29t",
+      "iCalUID": "vteo60e6h6ogouef31on62errc@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "date": "2025-05-12"
+      },
+      "recurringEventId": "vteo60e6h6ogouef31on62errc",
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "status": "confirmed",
+      "transparency": "transparent",
+      "visibility": "public",
+      "workingLocationProperties": {
+        "type": "officeLocation",
+        "officeLocation": {}
+      }
+    },
+    {
+      "id": "j501af7qe1kdc3rgs48bjc4drr_20250512T123000Z",
+      "summary": "Emails // Daily Planning // Review ",
+      "start": {
+        "dateTime": "2025-05-12T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-05-12T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "creator": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "created": "2024-06-14T01:16:29.000Z",
+      "updated": "2024-12-30T16:08:05.033Z",
+      "colorId": "2",
+      "etag": "\"3471149770066000\"",
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ajUwMWFmN3FlMWtkYzNyZ3M0OGJqYzRkcnJfMjAyNTA1MTJUMTIzMDAwWiBtYXR0QGJsdWV3YXRlcm1hcmtldGluZy5jb20",
+      "iCalUID": "j501af7qe1kdc3rgs48bjc4drr@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "dateTime": "2025-05-12T08:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "j501af7qe1kdc3rgs48bjc4drr",
+      "reminders": {
+        "useDefault": true
+      },
+      "sequence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": "40jtb5043uk0d69efipd28taon_20250512T150000Z",
+      "summary": "Google Ads",
+      "start": {
+        "dateTime": "2025-05-12T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-05-12T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "creator": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "created": "2024-12-30T16:23:39.000Z",
+      "updated": "2024-12-30T16:23:39.099Z",
+      "colorId": "2",
+      "etag": "\"3471151638198000\"",
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDBqdGI1MDQzdWswZDY5ZWZpcGQyOHRhb25fMjAyNTA1MTJUMTUwMDAwWiBtYXR0QGJsdWV3YXRlcm1hcmtldGluZy5jb20",
+      "iCalUID": "40jtb5043uk0d69efipd28taon@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "dateTime": "2025-05-12T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "40jtb5043uk0d69efipd28taon",
+      "reminders": {
+        "useDefault": true
+      },
+      "sequence": 0,
+      "status": "confirmed"
+    },
+    {
+      "id": "2h26v3u9b0g1c5304hr81n4pp9_20250512T143000Z",
+      "summary": "Linked-In Content ",
+      "start": {
+        "dateTime": "2025-05-12T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-05-12T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "creator": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "created": "2024-12-30T16:14:10.000Z",
+      "updated": "2025-01-14T13:59:04.656Z",
+      "colorId": "6",
+      "etag": "\"3473726289312000\"",
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmgyNnYzdTliMGcxYzUzMDRocjgxbjRwcDlfMjAyNTA1MTJUMTQzMDAwWiBtYXR0QGJsdWV3YXRlcm1hcmtldGluZy5jb20",
+      "iCalUID": "2h26v3u9b0g1c5304hr81n4pp9@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "dateTime": "2025-05-12T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2h26v3u9b0g1c5304hr81n4pp9",
+      "reminders": {
+        "useDefault": true
+      },
+      "sequence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": "nr17klo50jb1ioibaf05c00iql_20250512T160000Z",
+      "summary": "Lunch Break",
+      "start": {
+        "dateTime": "2025-05-12T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-05-12T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "creator": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "created": "2024-12-30T16:24:05.000Z",
+      "updated": "2025-03-31T19:25:38.978Z",
+      "colorId": "11",
+      "etag": "\"3486898277957310\"",
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bnIxN2tsbzUwamIxaW9pYmFmMDVjMDBpcWxfMjAyNTA1MTJUMTYwMDAwWiBtYXR0QGJsdWV3YXRlcm1hcmtldGluZy5jb20",
+      "iCalUID": "nr17klo50jb1ioibaf05c00iql@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "dateTime": "2025-05-12T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "nr17klo50jb1ioibaf05c00iql",
+      "reminders": {
+        "useDefault": true
+      },
+      "sequence": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": "3l4uuo3jjqg7012td0fdvi0q2b_20250512T170000Z",
+      "summary": "FB & Google Strategy Weekly Regroup",
+      "start": {
+        "dateTime": "2025-05-12T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-05-12T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "courtney@bluewatermarketing.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "matt@bluewatermarketing.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "victor@bluewatermarketing.com",
+          "responseStatus": "accepted"
+        }
+      ],
+      "creator": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "matt@bluewatermarketing.com",
+        "self": true
+      },
+      "created": "2025-02-25T20:53:13.000Z",
+      "updated": "2025-04-24T19:15:31.405Z",
+      "colorId": "3",
+      "conferenceData": {
+        "entryPoints": [
+          {
+            "entryPointType": "video",
+            "uri": "https://us02web.zoom.us/j/87150811008?pwd=bWJmbAMBpKDX5opAbENMC0mjuM4U8q.1",
+            "label": "us02web.zoom.us/j/87150811008?pwd=bWJmbAMBpKDX5opAbENMC0mjuM4U8q.1",
+            "meetingCode": "87150811008",
+            "passcode": "015450"
+          },
+          {
+            "regionCode": "US",
+            "entryPointType": "phone",
+            "uri": "tel:+13017158592,,87150811008#",
+            "label": "+1 301-715-8592",
+            "passcode": "015450"
+          },
+          {
+            "entryPointType": "more",
+            "uri": "https://www.google.com/url?q=https://applications.zoom.us/addon/invitation/detail?meetingUuid%3Db2hf1kKFRTKMCgCFNcU8uQ%253D%253D%26signature%3Deb06aabd52998cfa1fdda366fe927d12d88c525c6f9e6e4cfdbf4dbb281f5fbd%26v%3D1&sa=D&source=calendar&usg=AOvVaw1CYzMnGoWYWxXhEhhchspG"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "addOn"
+          },
+          "name": "Zoom Meeting",
+          "iconUri": "https://lh3.googleusercontent.com/pw/AM-JKLUkiyTEgH-6DiQP85RGtd_BORvAuFnS9katNMgwYQBJUTiDh12qtQxMJFWYH2Dj30hNsNUrr-kzKMl7jX-Qd0FR7JmVSx-Fhruf8xTPPI-wdsMYez6WJE7tz7KmqsORKBEnBTiILtMJXuMvphqKdB9X=s128-no"
+        },
+        "conferenceId": "87150811008",
+        "notes": "Meeting host: <a href=\"mailto:Matt@bluewatermarketing.com\" target=\"_blank\">Matt@bluewatermarketing.com</a><br /><br />Join Zoom Meeting: <br /><a href=\"https://www.google.com/url?q=https://us02web.zoom.us/j/87150811008?pwd%3DbWJmbAMBpKDX5opAbENMC0mjuM4U8q.1&amp;sa=D&amp;source=calendar&amp;usg=AOvVaw3koXrJxKd8ELrkWaVrc3pK\" target=\"_blank\">https://us02web.zoom.us/j/87150811008?pwd=bWJmbAMBpKDX5opAbENMC0mjuM4U8q.1</a>",
+        "parameters": {
+          "addOnParameters": {
+            "parameters": {
+              "scriptId": "1O_9DeEljSH2vrECr8XeFYYRxFFiowFKOivqSDz316BlBcDXrF00BXrkO",
+              "realMeetingId": "87150811008",
+              "creatorUserId": "ewj6MW6jQN26ESStp4aceg",
+              "meetingUuid": "b2hf1kKFRTKMCgCFNcU8uQ==",
+              "meetingType": "2",
+              "originalEventId": "3l4uuo3jjqg7012td0fdvi0q2b"
+            }
+          }
+        }
+      },
+      "etag": "\"3491044262810942\"",
+      "eventType": "default",
+      "extendedProperties": {
+        "shared": {
+          "meetingId": "87150811008",
+          "zmMeetingNum": "87150811008",
+          "meetingParams": "{\"topic\":\"FB & Google Strategy Weekly Regroup\",\"type\":3,\"invitees_hash\":\"d1qUjehf21T9pfOMZoxB4w==\",\"all_day\":false}"
+        }
+      },
+      "htmlLink": "https://www.google.com/calendar/event?eid=M2w0dXVvM2pqcWc3MDEydGQwZmR2aTBxMmJfMjAyNTA1MTJUMTcwMDAwWiBtYXR0QGJsdWV3YXRlcm1hcmtldGluZy5jb20",
+      "iCalUID": "3l4uuo3jjqg7012td0fdvi0q2b_R20250421T170000@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "dateTime": "2025-05-12T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "3l4uuo3jjqg7012td0fdvi0q2b_R20250421T170000",
+      "reminders": {
+        "useDefault": true
+      },
+      "sequence": 0,
+      "status": "confirmed"
+    },
+    {
+      "id": "1uftntq1hthvhd45kh8ss5h6k0_20250512T131500Z",
+      "summary": "Monday Kick Off",
+      "start": {
+        "dateTime": "2025-05-12T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2025-05-12T10:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "chris@bluewatermarketing.com",
+          "displayName": "Christopher Marrano",
+          "organizer": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "matt@bluewatermarketing.com",
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "courtney@bluewatermarketing.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "marlon@bluewatermarketing.com",
+          "responseStatus": "accepted"
+        }
+      ],
+      "creator": {
+        "email": "chris@bluewatermarketing.com",
+        "displayName": "Christopher Marrano"
+      },
+      "organizer": {
+        "email": "chris@bluewatermarketing.com",
+        "displayName": "Christopher Marrano"
+      },
+      "description": "<p><br>──────────<br><br>Chris Marrano is inviting you to a scheduled Zoom meeting.<br><br>Join Zoom Meeting<br>https://us02web.zoom.us/j/85448978610?pwd=w6zZk26UGBpUbrZrmunbkv2x5CJdYY.1<br><br>Meeting ID: 854 4897 8610<br>Passcode: 644458<br><br>---<br><br>One tap mobile<br>+13052241968,,85448978610#,,,,*644458# US<br>+13017158592,,85448978610#,,,,*644458# US (Washington DC)<br><br>---<br><br>Dial by your location<br>• +1 305 224 1968 US<br>• +1 301 715 8592 US (Washington DC)<br>• +1 309 205 3325 US<br>• +1 312 626 6799 US (Chicago)<br>• +1 646 931 3860 US<br>• +1 929 205 6099 US (New York)<br>• +1 507 473 4847 US<br>• +1 564 217 2000 US<br>• +1 669 444 9171 US<br>• +1 669 900 6833 US (San Jose)<br>• +1 689 278 1000 US<br>• +1 719 359 4580 US<br>• +1 253 205 0468 US<br>• +1 253 215 8782 US (Tacoma)<br>• +1 346 248 7799 US (Houston)<br>• +1 360 209 5623 US<br>• +1 386 347 5053 US<br><br>Meeting ID: 854 4897 8610<br>Passcode: 644458<br><br>Find your local number: https://us02web.zoom.us/u/kc8AlqrwWv<br><br><br><br>──────────</p>",
+      "location": "https://us02web.zoom.us/j/85448978610?pwd=w6zZk26UGBpUbrZrmunbkv2x5CJdYY.1",
+      "created": "2021-02-24T17:45:29.000Z",
+      "updated": "2025-04-28T15:25:36.012Z",
+      "colorId": "9",
+      "etag": "\"3491707872025566\"",
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MXVmdG50cTFodGh2aGQ0NWtoOHNzNWg2azBfMjAyNTA1MTJUMTMxNTAwWiBtYXR0QGJsdWV3YXRlcm1hcmtldGluZy5jb20",
+      "iCalUID": "1uftntq1hthvhd45kh8ss5h6k0_R20250428T131500@google.com",
+      "kind": "calendar#event",
+      "originalStartTime": {
+        "dateTime": "2025-05-12T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "1uftntq1hthvhd45kh8ss5h6k0_R20250428T131500",
+      "reminders": {
+        "useDefault": true
+      },
+      "sequence": 6,
+      "status": "confirmed"
+    }
+  ]

@@ -1,0 +1,66 @@
+[
+    {
+      "id": "196aa05d29070634",
+      "threadId": "196aa05d29070634",
+      "snippet": "n n8n Workflow mentioned you in Meeting Summary 2025-05-07T11:13:36.243+02:00 May 7, 2025, 2:43 PM ·Notizen, Konzepte, Mitschriften DB Attendees Sarthak Dixit V Vikas Sanwal Go to page Update",
+      "payload": {
+        "mimeType": "multipart/alternative"
+      },
+      "sizeEstimate": 17371,
+      "historyId": "14806",
+      "internalDate": "1746609230000",
+      "labels": [
+        {
+          "id": "INBOX",
+          "name": "INBOX"
+        },
+        {
+          "id": "IMPORTANT",
+          "name": "IMPORTANT"
+        },
+        {
+          "id": "CATEGORY_UPDATES",
+          "name": "CATEGORY_UPDATES"
+        },
+        {
+          "id": "UNREAD",
+          "name": "UNREAD"
+        }
+      ],
+      "Subject": "n8n Workflow mentioned you in Meeting Summary 2025-05-07T11:13:36.243+02:00",
+      "From": "Notion Team <notify@mail.notion.so>",
+      "To": "vikas.sanwal1@oodles.io"
+    },
+    {
+      "id": "196aa050a497a956",
+      "threadId": "196aa050a497a956",
+      "snippet": "n n8n Workflow mentioned you in Meeting Summary 2025-05-07T11:12:34.167+02:00 May 7, 2025, 2:42 PM ·Notizen, Konzepte, Mitschriften DB Attendees Sarthak Dixit V Vikas Sanwal Go to page Update",
+      "payload": {
+        "mimeType": "multipart/alternative"
+      },
+      "sizeEstimate": 17384,
+      "historyId": "14708",
+      "internalDate": "1746609179000",
+      "labels": [
+        {
+          "id": "INBOX",
+          "name": "INBOX"
+        },
+        {
+          "id": "IMPORTANT",
+          "name": "IMPORTANT"
+        },
+        {
+          "id": "CATEGORY_UPDATES",
+          "name": "CATEGORY_UPDATES"
+        },
+        {
+          "id": "UNREAD",
+          "name": "UNREAD"
+        }
+      ],
+      "Subject": "n8n Workflow mentioned you in Meeting Summary 2025-05-07T11:12:34.167+02:00",
+      "From": "Notion Team <notify@mail.notion.so>",
+      "To": "vikas.sanwal1@oodles.io"
+    }
+  ]

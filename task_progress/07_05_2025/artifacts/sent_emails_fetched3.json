@@ -1,0 +1,67 @@
+[
+    {
+      "id": "196a6cf70773febb",
+      "threadId": "196a6c456846123b",
+      "snippet": "Hi, Team, Here is an update of the tasks done today: Tasks Completed: Setting up pyenv to easily switch between python versions. Setup OpenVoice v2 successfully. Define table fields for ADT^A01 (Admit",
+      "payload": {
+        "mimeType": "multipart/alternative"
+      },
+      "sizeEstimate": 8275,
+      "historyId": "13279",
+      "internalDate": "1746555334000",
+      "labels": [
+        {
+          "id": "SENT",
+          "name": "SENT"
+        }
+      ],
+      "Subject": "Status Update | PathLink | 06/05/2025",
+      "From": "Vikas Sanwal <vikas.sanwal1@oodles.io>",
+      "To": "Kundan Ray <kundan.ray@oodles.io>",
+      "Cc": "Mohit Virmani <mohit.virmani@oodles.io>"
+    },
+    {
+      "id": "1969ff8fbf5d7825",
+      "threadId": "1969ff899ca5e0ca",
+      "snippet": "Vikas Sanwal Associate Consultant L2 - Development +91 8476062458 vikas.sanwal1 www.oodlestechnologies.com | www.oodlesmarketing.com | www.oodlesstudio.com Unit No. 117- 120, Welldone Tech Park, Sector",
+      "payload": {
+        "mimeType": "multipart/mixed"
+      },
+      "sizeEstimate": 10432810,
+      "historyId": "10506",
+      "internalDate": "1746440612000",
+      "labels": [
+        {
+          "id": "SENT",
+          "name": "SENT"
+        }
+      ],
+      "Subject": "HL7 doc",
+      "From": "Vikas Sanwal <vikas.sanwal1@oodles.io>",
+      "To": "Molu Tyagi <molu.tyagi@oodles.io>"
+    },
+    {
+      "id": "19691c07bef48235",
+      "threadId": "19691c07bef48235",
+      "snippet": "Vikas Sanwal shared a document Vikas Sanwal (vikas.sanwal1@oodles.io) has invited you to edit the following document: HL7 v2.9.1 Open Does this item look suspicious? Block sender Google LLC, 1600",
+      "payload": {
+        "mimeType": "multipart/alternative"
+      },
+      "sizeEstimate": 30589,
+      "historyId": "8075",
+      "internalDate": "1746202032000",
+      "labels": [
+        {
+          "id": "SENT",
+          "name": "SENT"
+        },
+        {
+          "id": "CATEGORY_UPDATES",
+          "name": "CATEGORY_UPDATES"
+        }
+      ],
+      "Subject": "Document shared with you: ‘HL7 v2.9.1’",
+      "From": "\"Vikas Sanwal (via Google Docs)\" <drive-shares-dm-noreply@google.com>",
+      "To": "vikassnwl@gmail.com"
+    }
+  ]
