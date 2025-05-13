@@ -1,0 +1,38 @@
+[
+    {
+      "id": "chatcmpl-BWKjW3mnxaMI95NC8OGw6DA7a4YRU",
+      "object": "chat.completion",
+      "created": 1747045894,
+      "model": "gpt-4-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "1. Morning Brief – 12 May 2025\n\n---\n\nTop 5 Action Items:\n\n1. Email from Lean Leverage: Three top talent picks for PPC Specialist available for interview and immediate hiring at $2000/month - PPC Specialist is a crucial role in driving business growth and performance and these talent picks come from a reliable recruitment source.\n2. Prepare for the strategy call with Mike from Outrank Brand for Matt from Bluewater Marketing - The call is crucial for developing business strategies and planning for business growth.\n3. Matt needs to follow up on the new lead from Russell McClain - This could potentially bring in more business for the company and increase profits.\n4. Fullfilling tasks on ClickUp: High-priority tasks (Task 1) and (Task 2) need to be prioritized on Matt's to-do list - The timely completion of high-priority tasks is key to keeping a project on track.\n5.  Email from Google Ads asking for feedback about the platform with a possible $10 reward - It is important to give feedback for any ongoing efforts and maintain relationships with strategic partners. Besides, this can also be a chance to gain additional rewards.\n\n---\n\nUrgent Follow-Ups:\n\n- Task 3 - This task is overdue in ClickUp, causing a delay in the project.\n- LinkedIn Content on the calendar - Matt may want to consider accepting LinkedIn invitations from Chip, Kyle, and Patrick firstly to boost their professional network.\n\n---\n\nMeeting list:\n\n- Client meetings\n    - Event: Google Ads\n      Time: 11:00 AM - 12:30 PM\n      Contact: matt@bluewatermarketing.com\n- Internal team blocks\n    - Event: Monday Kick Off\n      Time: 9:15 AM - 10:15 AM\n      Contact: chris@bluewatermarketing.com\n- Free time blocks\n    - Event: Lunch Break\n      Time: 12:00 PM – 12:30 PM\n      Contact: matt@bluewatermarketing.com\n    - Event: FB & Google Strategy Weekly Regroup\n      Time: 1:00 PM - 1:30 PM\n      Contact: matt@bluewatermarketing.com\n\n---\n\nSuggestions:\n\n- Delegate: Consider delegate tasks on ClickUp (Task 1) and (Task 2) to team members for effective time utilization.\n- Defer: Email from Bread and Butter: Promotional content showcasing a new 'Filth 16mm Pickleball Paddle' line - It can be put on hold as it does not impact business operation directly.\n- Respond Now: Email thread regarding 'Email Approval Needed' between Phillip Lee from pikkl.com and Jason - The approval is necessary to proceed further actions.\n\n---\n\nToday’s focus should be:\n\nBased on the events, emails, and tasks for the day, the focus should be on preparing for the strategic call with Mike from Outrank Brand, following-up on new leads, attending client meetings, and balance the time to work on the high-priority tasks from ClickUp. The internal team meeting for the kickoff and regular regroup session are also important for aligning with the team.\n\n---\n\nBlock formatted JSON response:\n\n`{\n\"type\": \"section\",\n\"text\": {\n\"type\": \"mrkdwn\",\n\"text\": \"Morning Brief - 12 May 2025...\"}\n}`",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 5835,
+        "completion_tokens": 678,
+        "total_tokens": 6513,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": null
+    }
+  ]

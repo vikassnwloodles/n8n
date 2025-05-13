@@ -24,3 +24,4 @@ with priority as urgent. Should we fetch them as well?
 
 # Gmail node queries
 1. It is not mentioned in the requirements document about how many unread messages should we fetch, i.e., for last 24 hours. Provide clarity on this.
+
